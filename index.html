@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TorControl</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+  </head>
+  <body id="body">
+    <h2>Tor öffnen oder schließen</h2>
+    <i class='fas fa-adjust' style='font-size: 130%' onclick="switchMode()"></i>
+
+      <div class="btn">
+        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=1" target="_parent">Hoftor</a>
+      </div>
+      <div class="btn">
+        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=2" target="_parent">Garage</a>
+      </div>
+      <div class="btn">
+        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=3" target="_parent">Werkstatt</a>
+      </div>
+      <div class="btn">
+        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=4" target="_parent">Hoftor & Garage</a>
+      </div>
+
+    <script src="script/script.js" charset="utf-8"></script>
+  </body>
+</html>
