@@ -6,7 +6,6 @@ body {
     outline: none;
     text-align: center;
     overflow: hidden;
-
 }
 .btn {
   width: 90%;
@@ -21,13 +20,14 @@ body {
 }
 
 a:link {
-    color: black;
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 
 i {
   position: absolute;
   top: 20px;
   right: 20px;
+  cursor: pointer;
 }
