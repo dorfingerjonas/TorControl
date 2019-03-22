@@ -11,18 +11,10 @@
     <h2>Tor öffnen oder schließen</h2>
     <i class='fas fa-adjust' style='font-size: 130%' onclick="switchMode()"></i>
 
-      <div class="btn">
-        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=1" target="_parent">Hoftor</a>
-      </div>
-      <div class="btn">
-        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=2" target="_parent">Garage</a>
-      </div>
-      <div class="btn">
-        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=3" target="_parent">Werkstatt</a>
-      </div>
-      <div class="btn">
-        <a href="http://10.1.25.62:8080/cgi-bin/tor.py?Tor=4" target="_parent">Hoftor & Garage</a>
-      </div>
+      <div class="btn" onclick="hoftor()">Hoftor</a></div>
+      <div class="btn" onclick="garage()">Garage</div>
+      <div class="btn" onclick="werkstatt()">Werkstatt</a></div>
+      <div class="btn" onclick="hoftorUndGarage()">Hoftor & Garage</div>
 
     <script src="script/script.js" charset="utf-8"></script>
   </body>
